@@ -147,6 +147,9 @@ h2 {
 .input-group {
 margin-bottom: 20px;
 position: relative;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
 }
 .input-group label {
 position: absolute;
@@ -168,6 +171,9 @@ border-radius: 10px;
 outline: none;
 transition: border 0.3s ease-in-out;
 background-color: #f9f9f9;
+width: calc(100% - 30px);
+display: block;
+margin: 0 auto;
 }
 .input-group input:focus {
 border-color: #0072ff;
