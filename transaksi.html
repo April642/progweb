@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Penjualan Barang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><img src="foto/logo.png" alt="Logo Aplikasi" width="200px"></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="transaksi.html">Transaksi</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <main>
+            <section class="form-section">
+                <h2>Form Pengisian Transaksi</h2>
+                <form id="transaction-form">
+                    <label for="transaction-name">Nama Transaksi:</label>
+                    <input type="text" id="transaction-name" name="transaction-name" required>
+    
+                    <label for="amount">Jumlah:</label>
+                    <input type="number" id="amount" name="amount" required>
+
+                    <label for="price">Harga:</label> <!-- Tambahkan input harga -->
+                <input type="number" id="price" name="price" required>
+    
+                    <label for="category">Kategori:</label>
+                    <select id="category" name="category" required>
+                        <option value="" disabled selected>Pilih Kategori</option>
+                        <option value="Elektronik">Elektronik</option>
+                        <option value="Pakaian">Pakaian</option>
+                        <option value="Makanan">Makanan/Minuman</option>
+                        <option value="Perabotan">Perabotan</option>
+                    </select>
+    
+                    <button type="submit">Simpan</button>
+                </form>
+            </section>
+    
+            <section class="table-section">
+                <h2>Daftar Transaksi</h2>
+                <table id="transaction-table">
+                    <thead>
+                        <tr>
+                            <th>Nama Transaksi</th>
+                            <th>Jumlah</th>
+                            <th>Harga</th>
+                            <th>Kategori</th>
+                            <th>Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                        <!-- Data transaksi akan ditambahkan di sini -->
+                    </tbody>
+                </table>
+            </section>
+        </main>    
+        <script src="transaksi.js"></script>
+            <footer>
+        &copy; Aprillya Dyah Leksono
+    </footer>
+</body>
+</html>
