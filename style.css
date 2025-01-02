@@ -1,57 +1,50 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #8fc6e6;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #8fc6e6;
 }
 header {
-    background-color: #B1F0F7;
-    color: #14324b;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+background-color: #B1F0F7;
+color: #14324b;
+padding: 10px 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
-
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
 }
-
 nav ul li {
-    margin-right: 15px;
+margin-right: 15px;
 }
-
 nav ul li a {
-    color: #14324b;
-    text-decoration: none;
-    font-size: 20px;
+color: #14324b;
+text-decoration: none;
+font-size: 20px;
 }
 nav ul li a:hover {
-    color: #474E93;
-    transform: scale(1.1);
+color: #474E93;
+transform: scale(1.1);
 }
-
 .hero {
 color: #14324b;
 text-align: center;
 padding: 50px 20px;
 }
-
 .hero h2 {
 font-size: 36px;
 margin-bottom: 20px;
 color: #14324b;
 }
-
 .hero p {
-    font-size: 20px;
-    margin-bottom: 20px;
-    color: #14324b;
-    }
-
+font-size: 20px;
+margin-bottom: 20px;
+color: #14324b;
+}
 .hero .btn {
 display: inline-block;
 background-color: white;
@@ -62,87 +55,81 @@ text-decoration: none;
 font-weight: bold;
 transition: background-color 0.3s;
 }
-
 .hero .btn:hover {
 background-color: #ddd;
 }
-
 .steps {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
 }
-
 .step {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    padding: 15px;
-    width: 250px;
-    text-align: center;
-    transition: transform 0.3s ease, background-color 0.3s ease;
+background: white;
+border-radius: 8px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+margin: 10px;
+padding: 15px;
+width: 250px;
+text-align: center;
+transition: transform 0.3s ease, background-color 0.3s ease;
 }
 .step:hover {
-    transform: scale(1.05); /* Zoom sedikit saat hover */
-    background-color: #f0f8ff;
+transform: scale(1.05); /* Zoom sedikit saat hover */
+background-color: #f0f8ff;
 }
 .step img {
-    max-width: 100%;
-    border-radius: 8px;
+max-width: 100%;
+border-radius: 8px;
 }
 footer {
-    text-align: center;
-    padding: 8px ;
-    background-color: #B1F0F7;
-    color: black;
-    position: relative;
-    bottom: 0;
-    font-size: 17px;
+text-align: center;
+padding: 8px ;
+background-color: #B1F0F7;
+color: black;
+position: relative;
+bottom: 0;
+font-size: 17px;
 }
 @media (max-width: 600px) {
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav ul li {
-        margin-bottom: 10px;
-    }
+header {
+flex-direction: column;
+align-items: flex-start;
 }
-
+nav ul {
+flex-direction: column;
+}
+nav ul li {
+margin-bottom: 10px;
+}
+}
 .login-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
 }
 .login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
 }
 .login-box {
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
-    padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-    width: 100%;
-    max-width: 400px;
-    backdrop-filter: blur(8px); /* Blur effect for background */
+background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+padding: 40px;
+border-radius: 15px;
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+width: 100%;
+max-width: 400px;
+backdrop-filter: blur(8px); /* Blur effect for background */
 }
 h2 {
-    text-align: center;
-    font-size: 2em;
-    color: #333;
-    margin-bottom: 20px;
-    font-weight: bold;
+text-align: center;
+font-size: 2em;
+color: #333;
+margin-bottom: 20px;
+font-weight: bold;
 }
 .input-group {
 margin-bottom: 20px;
@@ -204,11 +191,9 @@ cursor: pointer;
 width: 100%;
 transition: background-color 0.3s ease-in-out;
 }
-
 .login-btn:hover {
 background-color: lightblue;
 }
-
 .forgot-password {
 margin-top: 15px;
 color: #333;
@@ -216,18 +201,14 @@ font-size: 0.9em;
 text-decoration: none;
 transition: color 0.3s ease-in-out;
 }
-
 .forgot-password:hover {
 color: #333;
 }
-
-/* Google Login Button */
 .social-login {
 display: flex;
 justify-content: center;
 margin-top: 20px;
 }
-
 .google-login {
 background-color: #7AB2D3;
 color: #333;
@@ -242,129 +223,107 @@ justify-content: center;
 font-size: 1em;
 transition: background-color 0.3s ease-in-out;
 }
-
 .google-login i {
 margin-right: 10px;
 }
-
 .google-login:hover {
 background-color: lightblue;
 border: 12px;
 }
-
-/* Responsive design */
 @media screen and (max-width: 600px) {
 .login-box {
 padding: 30px;
 width: 90%;
 }
-
 h2 {
 font-size: 1.5em;
 }
-
 .login-btn {
 font-size: 1em;
 }
 }
 
-
 main {
-    padding: 20px;
+padding: 20px;
 }
 .form-section, .table-section {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    padding: 15px;
+background: white;
+border-radius: 8px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+margin-bottom: 20px;
+padding: 15px;
 }
-
 form {
-    display: flex;
-    flex-direction: column;
+display: flex;
+flex-direction: column;
 }
-
 label {
-    margin-top: 10px;
+margin-top: 10px;
 }
-
 input, select {
-    padding: 10px;
-    margin-top: 5px;
+padding: 10px;
+margin-top: 5px;
 }
-
 button {
-    margin-top: 15px;
-    padding: 10px;
-    background-color: #7AB2D3;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 18px;
+margin-top: 15px;
+padding: 10px;
+background-color: #7AB2D3;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 18px;
 }
-
 button:hover {
-    background-color: lightblue; /* Warna tombol saat hover */
+background-color: lightblue; /* Warna tombol saat hover */
 }
-
 table {
-    width: 100%;
-    border-collapse: collapse;
+width: 100%;
+border-collapse: collapse;
 }
-
 th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
+border: 1px solid #ddd;
+padding: 8px;
+text-align: center;
 }
-
 th {
-    background-color: #536493;
-    color: white;
+background-color: #536493;
+color: white;
 }
-
 tbody tr:hover {
-    background-color: #f1f1f1; /* Warna latar belakang saat hover pada baris tabel */
+background-color: #f1f1f1; /* Warna latar belakang saat hover pada baris tabel */
 }
-
 .features {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
   }
-  
-  .feature-box {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-    width: 300px;
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-  
-  .feature-box:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-  }
-  
-  .feature-box i {
-    font-size: 50px;
-    color: #007bff;
-    margin-bottom: 15px;
-  }
-  
-  .feature-box h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .feature-box p {
-    font-size: 14px;
-    color: #666;
-    line-height: 1.5;
-  }
+.feature-box {
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+padding: 20px;
+text-align: center;
+width: 300px;
+transition: transform 0.3s, box-shadow 0.3s;
+}
+.feature-box:hover {
+transform: translateY(-5px);
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+.feature-box i {
+font-size: 50px;
+color: #007bff;
+margin-bottom: 15px;
+}
+.feature-box h2 {
+font-size: 20px;
+margin-bottom: 10px;
+color: #333;
+}
+.feature-box p {
+font-size: 14px;
+color: #666;
+line-height: 1.5;
+}
